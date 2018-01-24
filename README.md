@@ -8,9 +8,9 @@
 
 ### 小程序预览
 
-![编辑器截图](./screenshots/demo2.gif)
+<!-- ![编辑器截图](./screenshots/demo2.gif) -->
 
-![编辑器截图](./screenshots/8.png)
+![编辑器截图](./images/summary.png)
 
 ### 项目结构
 <pre>
