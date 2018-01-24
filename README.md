@@ -8,9 +8,11 @@
 
 ### 小程序预览
 
-<!-- ![编辑器截图](./screenshots/demo2.gif) -->
+![演示图](https://i.loli.net/2018/01/25/5a68bbbf4549a.gif
+)
 
-![编辑器截图](./images/summary.png)
+![演示图](https://i.loli.net/2018/01/25/5a68b51b2a983.png
+)
 
 ### 项目结构
 <pre>
@@ -137,7 +139,8 @@
 
   使用了小程序自带的scroll-view组件
 
-  ![编辑器截图](./screenshots/2.png)
+  ![giffox截图](https://i.loli.net/2018/01/25/5a68be120d230.gif
+)
 
   ```bash
     <!--列表list组件 -->
@@ -248,10 +251,10 @@
 1. 将仓库克隆到本地：
 
   ```bash
-  $ git clone https://github.com/vincentSea/wechat-cnode.git
+  $ git clone https://github.com/touxing/wechat-cnode.git
   ```
 
-2. 打开`微信Web开放者工具`（注意：必须是`0.9.092300`版本）
+2. 打开`微信Web开放者工具`
 
 3. 选择`添加项目`，填写或选择相应信息
 

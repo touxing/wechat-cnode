@@ -27,9 +27,9 @@ Page({
     if(accesstoken === "") return;
 
     that.setData({ loading: true });
-
+    console.log(accesstoken);
     Api.fetchPost(ApiUrl, { accesstoken:accesstoken }, (err, res) => {
-
+      console.log(res);
       if(res.success){
         var CuserInfo = {
           accesstoken: accesstoken,

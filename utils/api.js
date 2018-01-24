@@ -6,7 +6,7 @@ var topics = HOST + '/topics';
 //get /topic/:id 主题详情
 var topic = HOST + '/topic';
 // post /accesstoken 验证 accessToken 的正确性
-var accesstoken = HOST + '/asscesstoke';
+var accesstoken = HOST + '/accesstoken';
 // post /topic_collect/collect 收藏主题
 var collect = HOST + '/topic_collect/collect';
 // post /topic_collect/de_collect 取消主题
@@ -22,11 +22,11 @@ function fetchGet(url, callback) {
   // return callback(null, top250)
   wx.request({
     url: url,
-    header : { 'Content-Type': 'application/json' },
-    success (res) {
+    header: { 'Content-Type': 'application/json' },
+    success: function(res) {
       callback(null, res.data)
     },
-    fail (e) {
+    fail: function(e) {
       console.error(e)
       callback(e)
     }
@@ -39,10 +39,10 @@ function fetchPost(url, data, callback) {
     method: 'POST',
     url: url,
     data: data,
-    success (res) {
+    success: function(res) {
       callback(null, res.data)
     },
-    fail (e) {
+    fail: function(e) {
       console.error(e)
       callback(e)
     }
