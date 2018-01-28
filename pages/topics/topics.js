@@ -56,6 +56,7 @@ Page({
   //获取文章列表数据
   getData: function() {
     var that = this;
+    console.log(this)
     var tab = that.data.tab;
     var page = that.data.page;
     var limit = that.data.limit;
@@ -77,6 +78,7 @@ Page({
       });
 
       setTimeout(function () {
+        console.log(this);
         that.setData({ hidden: true });
       }, 300);
     })
