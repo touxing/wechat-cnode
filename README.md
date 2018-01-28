@@ -4,8 +4,6 @@
 
 > 参考资料：https://github.com/coolfishstudio/wechat-webapp-cnode
 
->入门小例子: https://github.com/vincentSea/wxsapp
-
 ### 小程序预览
 
 ![演示图](https://i.loli.net/2018/01/25/5a68bbbf4549a.gif
